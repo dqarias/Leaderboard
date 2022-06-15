@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
-</head>
-<body>
-    <h1>Hello webpack!</h1>
-    <button type="button" id="btn-print">Print Me</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+  </head>
+  <body>
+    <h1 >Leaderboard</h1>
+    <main class="container">
+      <section class="scores">
+        <div class="scores__header">
+          <h2 class="scores__title">Recent scores</h2>
+          <button class="btn" type="button">Refresh</button>
+        </div>
+        <ul class="scores__body">
+          <li class="scores__list"><p>Name: 100</p></li>
+          <li class="scores__list"><p>Name: 20</p></li>
+          <li class="scores__list"><p>Name: 50</p></li>
+          <li class="scores__list"><p>Name: 78</p></li>
+          <li class="scores__list"><p>Name: 125</p></li>
+        </ul>
+      </section>
+      <section class="add_score">
+        <div class="add_score__header">
+          <h2 class="add_score__title">Add your score</h2>
+        </div>
+        <form class="add_score__form">
+          <input type="text" placeholder="Your Name" />
+          <input type="number" placeholder="Your Score" />
+          <button class="btn btn-add" type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
     <script type="module" src="./index.js"></script>
-</body>
+  </body>
 </html>
