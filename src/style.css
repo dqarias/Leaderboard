@@ -1,3 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
 body {
-  background-color: bisque;
+  font-size: 1.6rem;
+  font-family: "Comic Neue", sans-serif;
+  font-style: normal;
+  padding: 2rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  gap: 4.8rem;
+  width: 100%;
+  padding: 2rem 10%;
+}
+
+.scores {
+  width: 50%;
+}
+
+.scores__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.scores__body {
+  margin-top: 1.6rem;
+  border: 2px solid #000;
+}
+
+.scores__list {
+  padding: 0.2rem 0.5rem;
+}
+
+.scores__list:nth-child(even) {
+  background-color: lightgray;
+}
+
+.add_score {
+  width: 50%;
+  padding: 0rem 8rem;
+}
+
+.add_score__form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.6rem;
+  gap: 1.6rem;
+}
+
+.add_score__form > input {
+  font-family: "Comic Neue", sans-serif;
+  padding: 0rem 0.5rem;
+  border: 2px solid #000;
+}
+
+.btn {
+  padding: 0rem 1rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-add {
+  width: 40%;
+  align-self: flex-end;
 }
