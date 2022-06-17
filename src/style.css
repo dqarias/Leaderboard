@@ -16,8 +16,7 @@ body {
   font-size: 1.6rem;
   font-family: "Comic Neue", sans-serif;
   font-style: normal;
-  background-color: #f2f5f9 ;
-
+  background-color: #f2f5f9;
 }
 
 h1 {
@@ -54,7 +53,6 @@ ul {
 
 .scores {
   width: 100%;
- 
 }
 
 .scores__header {
@@ -66,42 +64,36 @@ ul {
 
 .scores__body {
   margin-top: 1.6rem;
- 
 }
 
 .scores__list {
-  padding: 0.2rem 0.5rem;
   background-color: #fff;
   margin-top: 1.6rem;
   padding: 0.6rem;
   border-radius: 0.5rem;
-  box-shadow: #ecf3f9 0px 3px 5px;
+  box-shadow: #ecf3f9 0 3px 5px;
 }
 
 .scores__list:hover {
   transform: scale(1.03, 1.2);
-
-
 }
-
 
 .scores__list:nth-child(even) {
   background-color: #cce5ff;
 }
 
-.scores__list-p{
+.scores__list-p {
   display: grid;
   grid-template-columns: 35% 65%;
 }
 
-.scores__list-user{
+.scores__list-user {
   color: #18273a;
   font-weight: 700;
 }
 
 .add_score {
   width: 100%;
-  
 }
 
 .add_score__form {
@@ -118,21 +110,21 @@ ul {
   border-radius: 1rem;
 }
 
-.add_score__form > input:focus{
+.add_score__form > input:focus {
   outline-color: #18273a;
 }
 
 .btn {
   padding: 0.2rem 1rem;
-  background-color: transparent;
   cursor: pointer;
-  background-color: #18273a ;
+  background-color: #18273a;
   color: #fff;
   font-weight: 700;
   border-color: #18273a;
   border-radius: 0.5rem;
 }
-.btn:hover{
+
+.btn:hover {
   background-color: #007bff;
   border-color: #007bff;
 }
@@ -145,18 +137,17 @@ ul {
   color: #fff;
 }
 
-.icon-Medal{
+.icon-Medal {
   padding-right: 1rem;
   color: #18273a;
 }
-
 
 @media only screen and (min-width: 768px) {
   .container {
     display: flex;
     flex-direction: row;
   }
-  
+
   .scores {
     width: 50%;
   }
