@@ -32,6 +32,14 @@ To get a local copy up and running follow these simple steps.
 - Run 'npm run start' to to open a page live server using webpack devServer
 - Run 'npm run build' to build the project
 
+### Deployment
+
+This project has been deployed using Github page
+
+### Live Demo
+
+[Live Demo Link](https://dqarias.github.io/Leaderboard/dist/)
+
 ## Authors
 
 👤 **Dino Quispe**
