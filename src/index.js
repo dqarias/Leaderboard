@@ -1,3 +1,5 @@
+import '@fortawesome/fontawesome-free/css/all.css';
+import '@fortawesome/fontawesome-free/js/all.js';
 import './style.css';
 import addNewScoreUser from './modules/addScoreUser.js';
 import getScoreUsers from './modules/getScoreUsers.js';
@@ -22,7 +24,7 @@ const renderScores = () => {
   userScore.then((scores) => {
     scores.sort((a, b) => b.score - a.score);
     scores.forEach((element) => {
-      scoresUsers.innerHTML += `<li class="scores__list">${element.user} : ${element.score}</p></li>`;
+      scoresUsers.innerHTML += `<li class="scores__list"><p class="scores__list-p"><span class="scores__list-user">${element.user}</span> <span class="scores__list-score"><i class="icon-Medal fa-solid fa-award"></i>${element.score}</span> </p></li>`;
     });
   });
 };

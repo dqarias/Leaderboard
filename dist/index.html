@@ -7,7 +7,10 @@
     <title>Leaderboard</title>
   <script defer src="bundle.js"></script></head>
   <body>
-    <h1>Leaderboard</h1>
+    <header class="header">
+      <i class="icon-trophy fa-solid fa-trophy fa-2xl"></i>
+      <h1>Leaderboard</h1>
+    </header>
     <main class="container">
       <section class="scores">
         <div class="scores__header">
@@ -24,7 +27,7 @@
         </div>
         <form class="add_score__form">
           <input type="text" id="name" name="name" placeholder="Your Name" required/>
-          <input type="number" id="score" name= "score" placeholder="Your Score" min="0" max="100" required/>
+          <input type="number" id="score" name= "score" placeholder="Your Score" min="0" required/>
           <button id="add_score" class="btn btn-add" type="button">Submit</button>
         </form>
       </section>
