@@ -28,8 +28,9 @@ To get a local copy up and running follow these simple steps.
 - Alternatively, you can just download the complete zip file and extract the folder in your directory
 
  **Step 2: Run in your project directory**
-- Open your console in your folder and run the nex command `. code` to open your vscode editor with awesomeBooks project.
-- Then in index.html you can open with live server.
+- Run 'npm install' to install all the dependencies from the package.json
+- Run 'npm run start' to to open a page live server using webpack devServer
+- Run 'npm run build' to build the project
 
 ## Authors
 
